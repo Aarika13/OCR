@@ -1,0 +1,5 @@
+Flask==2.2.3
+Werkzeug==2.2.3
+opencv-python==4.7.0.72
+pytesseract==0.3.10
+# tesseract-ocr==0.0.1
