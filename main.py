@@ -1,17 +1,63 @@
-import keras_ocr
-import cv2
-import pytesseract
 import os
 from PIL import Image
+import pytesseract
+from langdetect import detect
+
+from wand.image import Image as wi
+from pdf2image import convert_from_path
+import io
+import matplotlib.pyplot as plt
+# import keras_ocr
+import re
+# import nltk
+# from nltk.corpus import stopwords
+# from nltk.stem import PorterStemmer
 # path for the folder
-indir = r'/home/sunil/Desktop/np/uploads/'
+indir = "/home/sunil/Desktop/np/special"
 
 for root, dirs, filenames in os.walk(indir):
     for filename in filenames:
-        print('#####################################' + filename + '#####################################')
-        im = Image.open(indir + filename)
-        text = pytesseract.image_to_string(im, lang='eng')
-        print(text)
+        print('#######' + filename + '#######')
+        if filename.endswith(".jpg") or filename.endswith(".jpeg") or filename.endswith(".png"):
+            im = Image.open(os.path.join(indir, filename))
+            text = pytesseract.image_to_string(im, lang='eng')
+            print(text)
+        elif filename.endswith(".pdf"):
+            pdf_path = os.path.join(indir, filename)
+            images = convert_from_path(pdf_path)
+            for i, image in enumerate(images):
+                image.save(f'special/page_{i+1}.jpg', 'JPEG')
+        else:
+            print("Input the correct file")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# indir = r'/home/sunil/Desktop/np/uploads/'
+#
+# for root, dirs, filenames in os.walk(indir):
+#     for filename in filenames:
+#         print('#####################################' + filename + '#####################################')
+#         im = Image.open(indir + filename)
+#         text = pytesseract.image_to_string(im, lang='eng')
+#         print(text)
 
 
 # # specify the path to the folder containing the image files
