@@ -1,0 +1,132 @@
+Restaurant Receipt
+
+Name Jane Smith 002
+
+Receipt #
+
+Email jasmith@noemail.com  Date 4/8/2019
+
+Phone Number (123) 123-4567 Time 5:00 PM
+
+Ordered Items
+
+Food Name Quantity Price Total
+
+1 Food A 5 5 25
+
+2 Food B 5 5 25
+
+3 Food C 5 5 25
+
+4 Drink D 5 2 10
+
+5 Drink E 5 2 10
+Subtotal $95
+Tax % 5
+
+I
+
+Total $99.75
+
+Hope you enjoy your dining experience!
+
+1929 Brown Bear Drive, Elsinore,CA, 92330
+Phone: (123) 1234567 - nfo@xyzrestaurant com - st xyzrestaurant com
+
+Employee ID
+12345
+
+Employee Name
+
+Angela Mills
+Gain
+Details
+Basic Salary
+Bonus
+Commission
+Deductions
+Details
+Tax Deductions
+Health Insurance
+Loan
+Payment Method
+
+Wire Transfer
+
+Note
+N/A
+
+Payroll Receipt
+
+276 Eagle Lane, Wadena, MN, 56482
+(123) 123-4567 - info@email.com - www.abccompany.com
+
+Receipt Date
+May 9, 2022
+Receipt Number
+123456789
+Amount ($)
+3000
+300
+500
+Amount ($)
+30
+100
+200
+Total Gross Salary ($)
+$3800
+Total Deductions ($)
+$330
+Total Net Pay ($)
+
+3470
+
+
+Tax Invoice
+
+DARSHAN HOME FURNITURE Invoice No. e-Way Bill No. | Dated
+AMBALAL ESTATE, OPP. ROYAL 27 20-Oct-2022
+LAKE VIEW FLAT, VANDEMATRAM Delivery Note Mode/Terms of Payment
+RAILWAY CROSSING ROAD, GOTA
+GSTIN/UIN: 24AQHPS1524J1ZT Supplier's Ref. Other Reference(s)
+State Name : Gujarat, Code : 24 27
+Buyer Buyer's Order No. Dated
+AM WAVES INFONET LLP
+Despatch Document No. Delivery Note Date
+GSTIN/UIN 1 24ABTFA2400N1ZE
+State Name : Gujarat, Code : 24 Despatched through Destination
+Terms of Delivery
+Sl Description of Goods HSN/SAC | Quantity Rate per Amount
+No.
+1 |TABLE 9401 8 PCS| 6,500.00|PCS 52,000.00
+2 |COMPUTER CHAIR 9401 10 PCS| 5,000.00 PCS 50,000.00
+1,02,000.00
+CGST 9% 9,180.00
+SGST 9% 9,180.00
+Total 18 PCS ¥1,20,360.00
+Amount Chargeable (in words) E.&O.E
+Indian Rupees One Lakh Twenty Thousand Three Hundred Sixty Only
+HSN/SAC Taxable Central Tax State Tax Total
+Value Rate Amount Rate Amount | Tax Amount
+9401 1,02,000.00 9% 9,180.00 9% 9,180.00| 18,360.00
+Total | 1,02,000.00 9,180.00 9,180.00| 18,360.00
+
+Tax Amount (in words) : Indian Rupees Eighteen Thousand Three Hundred Sixty Only
+
+Company's Bank Details
+
+Bank Name . South Indian Bank
+Alc No. : 0794073000000123
+Branch & IFS Code: GOTA & SIBL0000794
+
+Declaration
+
+We declare that this invoice shows the actual price of the
+goods described and that all particulars are true and
+correct.
+
+for DARSHAN HOME FURNITURE
+
+Authorised Signatory
+
+This is a Computer Generated Invoice
