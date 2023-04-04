@@ -13,23 +13,6 @@ app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
-# Vendor = [
-#     {
-#         "id ": 1,
-#         "bill_no." : 0001
-#         "name" : "Minal",
-#         "company" : "Aspire",
-#         "Mobile Number" : 1234567890,
-#         "E-mail" : "aar@gmail.com",
-#         "Date" : 12/01/2012,
-#         "Type_of_bill" : "",
-#         "Quantity" : 1,
-#         "Description" : "",
-#         "Amount" : 4234567.00
-
-#     }
-# ]
-
 @app.route('/')  
 def upload():  
     return render_template("index.html")  
@@ -45,6 +28,7 @@ def upload_file():
         # check if the post request has the file part
         if 'file' not in request.files:
             flash('No file part')
+            # windows.alert("Input the correct file")
             return redirect(request.url)
         file = request.files['file']
         # If the user does not select a file, the browser submits an
@@ -56,21 +40,41 @@ def upload_file():
             filename = secure_filename(file.filename)
             file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
             return redirect(url_for('download_file', name=filename))
-    return '''
-        <!doctype html>
-        <title>Upload new File</title>
-        <h1>Upload new File</h1>
-        <form  method =post enctype=multipart/form-data>  
-                <input type=file name=file>  
-                <input type =submit value=Upload>  
-        </form>'''
-@app.route('/uploads/<name>')
-def download_file(name):
-    return send_from_directory(app.config["UPLOAD_FOLDER"], name)
+            # output_data = "/home/sunil/Desktop/np/templates/output.html"
+            # return redirect(url_for(output_data,name=filename))
+  
+    return render_template("success.html")
+    
+
+# '''
+#         <!doctype html>
+#         <title>Upload new File</title>
+#         <h1>Upload new File</h1>
+#         <form  method =post enctype=multipart/form-data>  
+#                 <input type=file name=file>  
+#                 <input type =submit value=Upload>  
+#         </form>'''
+@app.errorhandler(413)
+def too_large(e):
+    return "File is too large", 413
+
+
+
+# @app.route('/uploads/<name>')
+# def download_file(name):
+#     return send_from_directory(app.config["UPLOAD_FOLDER"], name)
 
 app.add_url_rule(
     "/uploads/<name>", endpoint="download_file", build_only=True
 )
+@app.route('/uploads/output')
+def output_data():
+    return render_template("output.html")
+#     return redirect("output.html")
+# app.add_url_rule(
+#     "/uploads/<name>/output", endpoint="upload.html", build_only=True
+# )
+
 
 if __name__ == '__main__':
     # app.run(debug=True)
