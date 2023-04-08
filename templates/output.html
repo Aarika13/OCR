@@ -33,12 +33,14 @@
 </style>
 
 <body>
+{% block content %}
 <div class="container-fluid">
-        <table class="table table-info table-striped table-hover mt-5 text-center">
+    
+        <table class="table table-info table-striped table-hover mt-5 text-center" method = "post">
             <thead>
               <tr>
 
-                    <th scope="col">#</th>
+                    <!-- <th scope="col">#</th> -->
                     <th scope="col">TYPE_OF_BILL</th>
                     <th scope="col">NAME</th>
                     <th scope="col">EMAIL</th>
@@ -57,7 +59,7 @@
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
+                <!-- <td>1</td> -->
                     <td>Service Reciept</td>
                     <td>AAA</td>
                     <td>xyz.@gmail.com</td>
@@ -72,7 +74,7 @@
                     <td>3</td>
               </tr>
               <tr>
-                <td>2</td>
+                <!-- <td>2</td> -->
                     <td>Employee Reciept</td>
                     <td>BBB</td>
                     <td>abc.@gmail.com</td>
@@ -86,8 +88,24 @@
                     <td>Gujarat</td>
                     <td>3</td>
               </tr>
+              {% for row in data %}
+              <tr>
+                <td>{{ row[1]['type_bill'] }}</td>
+                <td>{{ row[1]['name'] }}</td>
+                <td>{{ row[1]['email'] }}</td>
+                <td>{{ row[1]['date'] }}</td>
+                <td>{{ row[1]['mobile'] }}</td>
+                <td>{{ row[1]['time'] }}</td>
+                <td>{{ row[1]['description'] }}</td>
+                <td>{{ row[1]['tax'] }}</td>
+                <td>{{ row[1]['amount'] }}</td>
+                <td>{{ row[1]['invoice'] }}</td>
+                <td>{{ row[1]['quantity'] }}</td>
+              </tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>
+        {% endblock %}
 </body>
 </html>

@@ -51,20 +51,31 @@
 </style>
 <body>
     
-   
+
+    {% block content %}
     <div class="box">
         <div class="image">
     
             <header>Upload Here</header>
-            <form  method = "post" enctype="multipart/form-data">  
-                <input type="file" name="file" />
-                <a href="{{ url_for('templates', filename='/templates/output.html')}}">
-                    <input type = "submit" value="Upload" >  
-
-                </a>  
+            <form  method = "post" enctype="multipart/form-data" >  
+                <input type="file" name="file" />   
+                   
+                <input type = "submit" value="Upload" onclick="windows.open='output.html'">
             </form>
             <img src="{{ url_for('static', filename='/Images/download.png')}}">
         </div>
-
+        {% endblock %}
+        
 </body>
+<script>
+    $(function(){
+    $('#browse_app').click(function(){
+        windows.location='templates/output.html'
+    });
+});
+// function mufun(){
+// onsubmit="mufun()
+//     window.location.href = "http://192.168.2.68:5000/output"
+// }
+// </script>
 </html>
