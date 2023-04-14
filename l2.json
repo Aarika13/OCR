@@ -1,0 +1,9006 @@
+{
+    "classes": [
+        "TYPE_OF_BILL",
+        "NAME",
+        "EMAIL",
+        "ORDER_DATE",
+        "MOBILE_NO.",
+        "TIME",
+        "DESCRIPTION",
+        "TAX_RATE",
+        "TOTAL_AMOUNT",
+        "INVOICE_NO./BILL_NO.",
+        "STATE",
+        "QUANTITY"
+    ],
+    "annotations": [
+        [
+            "Restaurant Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Jane Smith 002",
+            {
+                "entities": [
+                    [
+                        5,
+                        15,
+                        "NAME"
+                    ],
+                    [
+                        16,
+                        19,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt #",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email jasmith@noemail.com  Date 4/8/2019",
+            {
+                "entities": [
+                    [
+                        6,
+                        25,
+                        "EMAIL"
+                    ],
+                    [
+                        32,
+                        40,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number (123) 123-4567 Time 5:00 PM",
+            {
+                "entities": [
+                    [
+                        13,
+                        27,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        33,
+                        40,
+                        "TIME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Ordered Items",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Food Name Quantity Price Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Food A 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 Food B 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3 Food C 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4 Drink D 5 2 10",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5 Drink E 5 2 10",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Subtotal $95",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tax % 5",
+            {
+                "entities": [
+                    [
+                        4,
+                        7,
+                        "TAX_RATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "I",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total $99.75",
+            {
+                "entities": [
+                    [
+                        7,
+                        12,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Hope you enjoy your dining experience!",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1929 Brown Bear Drive, Elsinore,CA, 92330",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone: (123) 1234567 - nfo@xyzrestaurant com - st xyzrestaurant com",
+            {
+                "entities": [
+                    [
+                        7,
+                        20,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        23,
+                        44,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Employee ID",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "12345",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Employee Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Angela Mills",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Gain",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Basic Salary",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Bonus",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Commission",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Deductions",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tax Deductions",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Health Insurance",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Loan",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Wire Transfer",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Note",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "N/A",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payroll Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "276 Eagle Lane, Wadena, MN, 56482",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 123-4567 - info@email.com - www.abccompany.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        17,
+                        31,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "May 9, 2022",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Receipt Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123456789",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3000",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "300",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "500",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "30",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "100",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "200",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Gross Salary ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$3800",
+            {
+                "entities": [
+                    [
+                        1,
+                        5,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total Deductions ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$330",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Net Pay ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3470",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tax Invoice",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "DARSHAN HOME FURNITURE Invoice No. e-Way Bill No. | Dated",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "AMBALAL ESTATE, OPP. ROYAL 27 20-Oct-2022",
+            {
+                "entities": [
+                    [
+                        27,
+                        29,
+                        "INVOICE_NO./BILL_NO."
+                    ],
+                    [
+                        30,
+                        41,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "LAKE VIEW FLAT, VANDEMATRAM Delivery Note Mode/Terms of Payment",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "RAILWAY CROSSING ROAD, GOTA",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "GSTIN/UIN: 24AQHPS1524J1ZT Supplier's Ref. Other Reference(s)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "State Name : Gujarat, Code : 24 27",
+            {
+                "entities": [
+                    [
+                        13,
+                        20,
+                        "STATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Buyer Buyer's Order No. Dated",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "AM WAVES INFONET LLP",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Despatch Document No. Delivery Note Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "GSTIN/UIN 1 24ABTFA2400N1ZE",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "State Name : Gujarat, Code : 24 Despatched through Destination",
+            {
+                "entities": [
+                    [
+                        13,
+                        20,
+                        "STATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Terms of Delivery",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Sl Description of Goods HSN/SAC | Quantity Rate per Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "No.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 |TABLE 9401 8 PCS| 6,500.00|PCS 52,000.00",
+            {
+                "entities": [
+                    [
+                        2,
+                        13,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        14,
+                        15,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "2 |COMPUTER CHAIR 9401 10 PCS| 5,000.00 PCS 50,000.00",
+            {
+                "entities": [
+                    [
+                        2,
+                        22,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        23,
+                        25,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "1,02,000.00",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "CGST 9% 9,180.00",
+            {
+                "entities": [
+                    [
+                        5,
+                        7,
+                        "TAX_RATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "SGST 9% 9,180.00",
+            {
+                "entities": [
+                    [
+                        5,
+                        7,
+                        "TAX_RATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total 18 PCS ¥1,20,360.00",
+            {
+                "entities": [
+                    [
+                        6,
+                        8,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Amount Chargeable (in words) E.&O.E",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Indian Rupees One Lakh Twenty Thousand Three Hundred Sixty Only",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "HSN/SAC Taxable Central Tax State Tax Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Value Rate Amount Rate Amount | Tax Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "9401 1,02,000.00 9% 9,180.00 9% 9,180.00| 18,360.00",
+            {
+                "entities": [
+                    [
+                        17,
+                        19,
+                        "TAX_RATE"
+                    ],
+                    [
+                        29,
+                        31,
+                        "TAX_RATE"
+                    ],
+                    [
+                        42,
+                        51,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total | 1,02,000.00 9,180.00 9,180.00| 18,360.00",
+            {
+                "entities": [
+                    [
+                        39,
+                        48,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tax Amount (in words) : Indian Rupees Eighteen Thousand Three Hundred Sixty Only",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Company's Bank Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Bank Name . South Indian Bank",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Alc No. : 0794073000000123",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Branch & IFS Code: GOTA & SIBL0000794",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Declaration",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "We declare that this invoice shows the actual price of the",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "goods described and that all particulars are true and",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "correct.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "for DARSHAN HOME FURNITURE",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Authorised Signatory",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "This is a Computer Generated Invoice",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "TOWING RECEIPT",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "727 Nixon Avenue, Kenton, TN, 38233",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "info@abetowing.com - www.abctowing.com - (123)-1234567",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "EMAIL"
+                    ],
+                    [
+                        41,
+                        54,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt No.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "0001",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Customer Information",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Anne Burton",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "anne.burton@noemailtest.co",
+            {
+                "entities": [
+                    [
+                        0,
+                        26,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "m",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Vehicle Information",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Make Year Model",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Ford 2019 Sedan",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        15,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Reason for towing",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "June 19, 2021",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123)123-4567",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1372 Payne Street",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Richlands, VA, 24641",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Color VIN #",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Red 123456",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Vehicle is a traffic hazard. It blocks an intersection or lane, or impedes the flow",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "of traffic.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Services",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Services Description",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Towing Fee",
+            {
+                "entities": [
+                    [
+                        2,
+                        12,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 Labor fee",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3 Tire replacement",
+            {
+                "entities": [
+                    [
+                        2,
+                        18,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Discount Tax",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$0.00 $10.00",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment method Shipping",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Cash $0.00",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Notes/Remarks",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "N/A",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "100",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "30",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "100",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Subtotal",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "230",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount Paid ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "220",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Authorized Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "S",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date Signed",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "June 19,2021",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "COMPANY",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "NAME",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "~ | PaymentReceipt",
+            {
+                "entities": [
+                    [
+                        4,
+                        18,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Invoice to:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Angela Test",
+            {
+                "entities": [
+                    [
+                        5,
+                        16,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address 34th Street, Happy Village",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Malabon, Metro Manila, 1110",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date Thursday, April 18,2019",
+            {
+                "entities": [
+                    [
+                        15,
+                        28,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method -",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Products",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Quantity Unit Price Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Shampoo 1 10 10",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        8,
+                        9,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Toothpaste 2 15 30",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        11,
+                        12,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Soap 3 5 15",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        5,
+                        6,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "COVID Vaccine Consent Form - Altoona",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tuesday, January 19,2021",
+            {
+                "entities": [
+                    [
+                        9,
+                        24,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Patients Full Nam",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Costanza Proin e mi. Nulla ac",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "enim. In tempor,turpis nec",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "eismod scelerisque, quam",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "turpis adipiscing lorem, vitae",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "mattis nibh ligula nec sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date of Birth:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Thursday, December 8, 2016",
+            {
+                "entities": [
+                    [
+                        10,
+                        26,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspendisse omare consequat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "lectus. In est risus, auctor sed,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Senner tistique in, tempus sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "8 Sloan Junction Doctor City/Stat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States Suspendisse omare consequat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "lectus. In est risus, auctor sed,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "istique in, tempus sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "What dose of COVID-19 vaceine will this be?",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Option3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Please specify the allergy from Q2:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Pl",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "e pick a day and time for your vaccination",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "‘Saturday, Apr 25, 2020 12:00 PM - 12:30 PM",
+            {
+                "entities": [
+                    [
+                        11,
+                        23,
+                        "ORDER_DATE"
+                    ],
+                    [
+                        24,
+                        32,
+                        "TIME"
+                    ],
+                    [
+                        35,
+                        43,
+                        "TIME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Gender:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Option 3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Age:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspend",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "isse",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "omare",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "consequ",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "at",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "lectus. In",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "estrisus,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "auctor",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sed,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "tistique",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "in When did you receive your first dose?",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "tempus  Thursday, December 8, 2016",
+            {
+                "entities": [
+                    [
+                        18,
+                        34,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "sitamet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Are you one of the following?",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Option3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspendisse omare consequat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "lectus. In est risus, auctor sed,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "tistique in, tempus sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Primary Care Doctor:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspendisse omare consequat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "lectus. In est risus, auctor sed,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "istique in, tempus sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sem,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspendisse omare consequat lectus. In est risus, auctor sed, tistique i,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "tempus sit amet, sem.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature of Person to Receive Vaceine & EUAIVIS (o Signature of",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "‘Signature of Acknowledgment of Notice of Privacy.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ParentGuarian f Patient s < 18y0) Practices:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "/ W",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "it \"o",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "P—— O | Am T aase",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Qs LD st E =l Rl",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5T 7T -",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "[r—",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "PNEUSIA PR Vi | A",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "o Zrurer",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "SHINGRIX. Z0STAVAX Osm | A Tooh Cymese!",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "\" T St",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Over Am hoh s",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "S",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature of Pharmacist who administered vaceine(s)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Ot Administered:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Please take or upload pictures of front & back of insurance card for billing purposes",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Type a question",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Option3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "If uninsured, you must check the box below to attest that the following information is true and accurate",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Option3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "In order to have your vaceine administration fee paid for by the United States Health Resources & Services Administrations",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "COVID-19 Program for uninsured patients, please select to provide one of the following:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Received by",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Received from",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Item List",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Item Description",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Item 1",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 Item 2",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3 Item 3",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4 Item 4",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5 Item 5",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Simple Cash Receipt",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "John Smithy Date",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "7/14/2020",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Angela Test Receipt Number",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "1241515",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Quantitiy Unit Price Discount Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5 $10 $1 s49",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "o 5 83 $27",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ol $22 $4 584",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 % $1 $11",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "TAX_RATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "5 $10 $2 s48",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount: $219",
+            {
+                "entities": [
+                    [
+                        15,
+                        18,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "o",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "PRESCRIPTION TEMPLATE",
+            {
+                "entities": [
+                    [
+                        0,
+                        21,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Prescription No. Prescription Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "0001 November 8, 2021",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "INVOICE_NO./BILL_NO."
+                    ],
+                    [
+                        5,
+                        21,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "N",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Patient Information",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Age",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Anne Burton 30",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number Date of Birth",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123)123-4567 Wednesday, November 8, 1989",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        25,
+                        41,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Email Gender",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "anne.burton@noemailtest.com Female",
+            {
+                "entities": [
+                    [
+                        0,
+                        27,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1372 Payne Street",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Richlands, VA, 24641",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Allergies Notable Health Condition",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Seafood None",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Purpose Dosage Route Frequency",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Expectorant R 1 tablet oral Every 4 hours",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "phlegm",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Paracetamol For fever 1 tablet oral Every 4 hours",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bacterial",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Anti e 500mg oral Every 8 hours",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Vitamin € Immune system  500mg. oral Once aday",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Vitamin D Immune System 1 tablet oral Once aday",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        24,
+                        25,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Physician Name Physician Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Leslie Holden (112)312-3456",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "NAME"
+                    ],
+                    [
+                        14,
+                        27,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Physician Signature Physician Email",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "/r?éﬁ’ leslie.h@noemail.com",
+            {
+                "entities": [
+                    [
+                        7,
+                        27,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "November 9, 2021",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "C D 46 Traders Alley",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "K Ci",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ompany e",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "816-413-2798",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Deposit Payment Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        23,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name of Tenant Name of Landlord",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "John Smith Angela Test",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address of Tenant Address of Landlord",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "34th Street, Happy Village Rosewood Lanesample11, Happy",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Malabon, Metro Manila, 1110 Village",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States New York, NY, 433545",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Account 12345960124 Amount 200",
+            {
+                "entities": [
+                    [
+                        27,
+                        30,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Landlord's Signature Tenant's Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "O =",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tuesday, April 16, 2019",
+            {
+                "entities": [
+                    [
+                        9,
+                        23,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Car Sales Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "122 Mulberry Avenue, Griffithville, AR, 72060",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 123-4567 | info@abccars.com | www.abccar:",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        17,
+                        33,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Angela Smith",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 123-4567",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "angela.smith@noemail.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        24,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3782 Victoria Court",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Monroe, ME, 04951",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1",
+            {
+                "entities": [
+                    [
+                        0,
+                        1,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date of Purchase",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "02/20/2020",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Vehicle Informati",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Registration Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123456",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "VIN",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123456",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Mileage",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Check.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Car Sale Price ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$30,000.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        10,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Tax ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$500.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        7,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$30500",
+            {
+                "entities": [
+                    [
+                        1,
+                        6,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Make",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Honda",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Year",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2018",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Color",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "White",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Seller/Vendor Buyer",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Rubio Donovan Angela Smith",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "NAME"
+                    ],
+                    [
+                        14,
+                        26,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "0212012020 0212012020",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        11,
+                        21,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Restaurant Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Jane Smith 002",
+            {
+                "entities": [
+                    [
+                        5,
+                        15,
+                        "NAME"
+                    ],
+                    [
+                        16,
+                        19,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt #",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email jasmith@noemail.com  Date 4/8/2019",
+            {
+                "entities": [
+                    [
+                        6,
+                        25,
+                        "EMAIL"
+                    ],
+                    [
+                        32,
+                        40,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number (123) 123-4567 Time 5:00 PM",
+            {
+                "entities": [
+                    [
+                        13,
+                        27,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        33,
+                        40,
+                        "TIME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Ordered Items",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Food Name Quantity Price Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Food A 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 Food B 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3 Food C 5 5 25",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4 Drink D 5 2 10",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5 Drink E 5 2 10",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Subtotal $95",
+            {
+                "entities": [
+                    [
+                        10,
+                        12,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Tax % 5",
+            {
+                "entities": [
+                    [
+                        4,
+                        7,
+                        "TAX_RATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "I",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total $99.75",
+            {
+                "entities": [
+                    [
+                        7,
+                        12,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Hope you enjoy your dining experience!",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1929 Brown Bear Drive, Elsinore,CA, 92330",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone: (123) 1234567 - nfo@xyzrestaurant com - st xyzrestaurant com",
+            {
+                "entities": [
+                    [
+                        7,
+                        20,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        23,
+                        44,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "R-0016",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Rent Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date August 10, 2020",
+            {
+                "entities": [
+                    [
+                        5,
+                        20,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Tenant Landlord",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Name John Doe",
+            {
+                "entities": [
+                    [
+                        10,
+                        18,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Address Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4742 Crummit Lane Murray, NE,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1747 Chandler Drive Rn40",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Billings, Missouri,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "65610",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount paid $1,000.00 PaymentMethod  Cash",
+            {
+                "entities": [
+                    [
+                        13,
+                        21,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Tenant Signature Landlord Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date of Receipt: ~ 05/10/2012",
+            {
+                "entities": [
+                    [
+                        19,
+                        29,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Church Donation Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        23,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "CHURCH INFORMATION:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name of Churcl",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Church Address:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "CityLight Church",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "306 Rosewood Lane, New York City, New York (NY), 10016,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "DONOR INFORMATION:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donated by:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donor Address:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Honorable Vinny Brasener",
+            {
+                "entities": [
+                    [
+                        10,
+                        24,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "534 Thierer Terrace, 61476 American Ash Plaza",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phoenix, Arizona, 85020",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "+38 (50) 869-0318",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "brainless@example.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        21,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "DONATION INFORMATION:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donation Type:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Description of Donation:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "In blandit ultrices enim. Lorem ipsum dolor sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "consectetuer adipiscing elit.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Employee ID",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "12345",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Employee Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Angela Mills",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Gain",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Basic Salary",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Bonus",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Commission",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Deductions",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tax Deductions",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Health Insurance",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Loan",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Wire Transfer",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Note",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "N/A",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payroll Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "276 Eagle Lane, Wadena, MN, 56482",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 123-4567 - info@email.com - www.abccompany.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        17,
+                        31,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "May 9, 2022",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Receipt Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123456789",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3000",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "300",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "500",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "30",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "100",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "200",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Gross Salary ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$3800",
+            {
+                "entities": [
+                    [
+                        1,
+                        5,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total Deductions ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$330",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Net Pay ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3470",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Book No  R00125",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "TYPE_OF_BILL"
+                    ],
+                    [
+                        17,
+                        23,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "RECEIVED FROM",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ORDER DETAILS",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Description",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Food",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "$10.00x 2",
+            {
+                "entities": [
+                    [
+                        8,
+                        9,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Pillow",
+            {
+                "entities": [
+                    [
+                        0,
+                        6,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "$5.00x 10",
+            {
+                "entities": [
+                    [
+                        7,
+                        9,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Wine",
+            {
+                "entities": [
+                    [
+                        0,
+                        4,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "$12.00x 20",
+            {
+                "entities": [
+                    [
+                        8,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date 04/19/2019",
+            {
+                "entities": [
+                    [
+                        5,
+                        15,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Josie Marington",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "(293) 482-0934",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "josie@example.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        17,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "1383 Davis Lane, Happy Village",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Engelwood, Colorado, 80112",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "‘Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$20.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        6,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "$50.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        6,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "$240.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        7,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total $310.00",
+            {
+                "entities": [
+                    [
+                        7,
+                        13,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Cash",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Delivery Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Customer Information",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name John Doe Receipt Number 002",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "NAME"
+                    ],
+                    [
+                        29,
+                        32,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Email johndoe@noemail.com Delivery Date April 10,2019",
+            {
+                "entities": [
+                    [
+                        6,
+                        25,
+                        "EMAIL"
+                    ],
+                    [
+                        40,
+                        53,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Phone Number  (123) 123-4567 Delivery Address 3383 Public Works Drive",
+            {
+                "entities": [
+                    [
+                        14,
+                        28,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Chattanooga, TN, 37421",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address 3383 Public Works Drive",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Chattanooga, TN, 37421",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Order Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Item Description Quantity Unit Price Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Product A 10 $50 $500",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "2 Product B 10 $30 $300",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "3 Product C 5 540 5200",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        13,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "4 Product D 20 520 5400",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "B Product E 15 $50 $750",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "6 Product F 10 $15 $150",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "7 Product G 5 $50 $250",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        13,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "8 Product H 10 $30 $300",
+            {
+                "entities": [
+                    [
+                        2,
+                        11,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        12,
+                        14,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Received By Jane Smith Subtotal 52,850",
+            {
+                "entities": [
+                    [
+                        12,
+                        22,
+                        "NAME"
+                    ],
+                    [
+                        32,
+                        38,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature Delivery Charge 50",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount 52,900",
+            {
+                "entities": [
+                    [
+                        13,
+                        19,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2142 Coffman Alley, Bowling Green, KY, 42270",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123)1234567 - info@abedeliv.com - www.abcdeliv.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        15,
+                        32,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "RENT RECEIPT",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tenant Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Monthly Rent",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Olivia Smith",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$1,450.00",
+            {
+                "entities": [
+                    [
+                        1,
+                        9,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Landlord Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "John Doe",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "(138)192:3712",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4275 Crummit Lane",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Murray, NE, 68409",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt No R-0010",
+            {
+                "entities": [
+                    [
+                        11,
+                        17,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date 01/24/2020",
+            {
+                "entities": [
+                    [
+                        5,
+                        15,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount Paid  $ 1,450.00",
+            {
+                "entities": [
+                    [
+                        15,
+                        23,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Method Cash",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Landlord",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tenant",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Mega Sales Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Sale",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Store",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt 1",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "RS Particulars",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date  4/19/2019",
+            {
+                "entities": [
+                    [
+                        6,
+                        15,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Quantity Description Amount Sub Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 Item 1 22 22",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Name 3 Product 2 7 33",
+            {
+                "entities": [
+                    [
+                        7,
+                        16,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        17,
+                        18,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Michael Carlsmilth 17 Item 3 1 1",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "NAME"
+                    ],
+                    [
+                        22,
+                        28,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        29,
+                        30,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Address 3 Item 4 33 99",
+            {
+                "entities": [
+                    [
+                        10,
+                        16,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        17,
+                        19,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "123 rodeo drive, 213",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Mark Street 1 Item 5 1 1",
+            {
+                "entities": [
+                    [
+                        14,
+                        20,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        21,
+                        22,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Great City, Some",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "State, 1111 44 Item 6 3 132",
+            {
+                "entities": [
+                    [
+                        15,
+                        21,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        22,
+                        23,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Mode of Payment ! Item?7 1 1",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 Item 8 2 4",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "3 Item 9 3 9",
+            {
+                "entities": [
+                    [
+                        2,
+                        8,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        9,
+                        10,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "4 Item 10 1 4",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "1 Item 11 m n",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "3 Item 12 2 6",
+            {
+                "entities": [
+                    [
+                        2,
+                        9,
+                        "DESCRIPTION"
+                    ],
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "333",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "700 Larkspur Landing O #125",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ur Calforia(C 3",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "BILL TO",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Jane Smith",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 123-4567",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Email",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "janesmith@noemail.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        21,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "514 Stratford Drive",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Honolulu, HI, 96814",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "HOTEL RECEIPT",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "59015",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "002",
+            {
+                "entities": [
+                    [
+                        0,
+                        3,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "April 8, 2019",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Check In Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "April 10, 2019",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Check Out Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "April 17, 2019",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Credit Card",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Room Numberof Price per",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Number Nights Night ($) Total($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "1 01 7 100 700",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "6",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "7",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "8",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "9",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount .",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Cashier's Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Customer's Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "COMPANY NAME",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3915 Mcwhorter Road, luka, MS, 38852 (123) 123-4567 | info@company.com | www.company.com",
+            {
+                "entities": [
+                    [
+                        37,
+                        51,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        54,
+                        70,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "|",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Voucher# 0001 Date 08/26/2020",
+            {
+                "entities": [
+                    [
+                        7,
+                        13,
+                        "INVOICE_NO./BILL_NO."
+                    ],
+                    [
+                        19,
+                        29,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Paid To Kelvin Marler",
+            {
+                "entities": [
+                    [
+                        8,
+                        21,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Items",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date Item / Description Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "8/22/2020 Item/ Equipment No. 1 $20",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "ORDER_DATE"
+                    ],
+                    [
+                        10,
+                        31,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "812212020 Item/ Equipment No. 2 $30",
+            {
+                "entities": [
+                    [
+                        10,
+                        31,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "812212020 Item/ Equipment No. 3 $40",
+            {
+                "entities": [
+                    [
+                        10,
+                        31,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "812212020 Item/ Equipment No. 4 $50",
+            {
+                "entities": [
+                    [
+                        10,
+                        31,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "812212020 Item/ Equipment No. 5 $60",
+            {
+                "entities": [
+                    [
+                        10,
+                        31,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount ($)",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$200",
+            {
+                "entities": [
+                    [
+                        1,
+                        4,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Authorized By Angela Mills Prepared By Leslie Marler",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "signature Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "EYan s",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date Signed  08/27/2020 Date Signed  08/27/2020",
+            {
+                "entities": [
+                    [
+                        13,
+                        23,
+                        "ORDER_DATE"
+                    ],
+                    [
+                        37,
+                        47,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt Number 12345",
+            {
+                "entities": [
+                    [
+                        15,
+                        20,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date 4/9/2019",
+            {
+                "entities": [
+                    [
+                        5,
+                        13,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Landlord Angela Test",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address 34th Street, Happy Village",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Malabon, Metro Manila, 1110",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number (768) 7607607",
+            {
+                "entities": [
+                    [
+                        13,
+                        26,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tenant Johnny Smith",
+            {
+                "entities": [
+                    [
+                        7,
+                        19,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address 34th Street, Happy Village",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Malabon, Metro Manila, 1110",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number (437) 4347343",
+            {
+                "entities": [
+                    [
+                        13,
+                        26,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Amount $4,500.00",
+            {
+                "entities": [
+                    [
+                        8,
+                        16,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method e",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Landlord's Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "2 CLIENT INFORMATION",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Linda Smith",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "janea.thomp",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "s@hotmail.c",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "om",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4823 Stoney",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Lonesome",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Road",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Moris,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Pennsylvania",
+            {
+                "entities": []
+            }
+        ],
+        [
+            ",16938",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ADDITIONAL",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "INFORMATION",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Iwould",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "like more",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "informatio",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "non",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "becoming",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "a",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Distributor",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Yes",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Iwould",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "like more",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "informatio",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "non",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "purchasin",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "gmy",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "products",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ata",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "wholesale",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "price:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Yes",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Order Form",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(N",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "o",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "PHONE NUMBER",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(570) 353-5875",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "SHIPPING ADDRESS",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "4823 Stoney Lonesome",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Road",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Morris, Pennsylvania, 16938",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ORDER DETAILS",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Instantly 25.00",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Ageless usb",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Quantity: 1",
+            {
+                "entities": [
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Sample of 12.00",
+            {
+                "entities": [
+                    [
+                        10,
+                        15,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "usb",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Serum",
+            {
+                "entities": [
+                    [
+                        0,
+                        5,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Quantity: 2",
+            {
+                "entities": [
+                    [
+                        10,
+                        11,
+                        "QUANTITY"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Shipping 9.00USD",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Total 58.00 USD",
+            {
+                "entities": [
+                    [
+                        6,
+                        11,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "ADDITIONAL REQUESTS",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Lorem ipsum dolor sit amet,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "consectetur adipiscing elit,",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "sed do eiusmod tempor",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "incididunt ut labore et dolore",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "magna aliqua. Fringila urna",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "porttitor thoncus dolor",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "purus non enim praesent",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "elementum. Sit amet est",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "placerat in egestas erat",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "imperdiet. Aliquam etiam",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "erat velit scelerisque in",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5/10/2008)",
+            {
+                "entities": [
+                    [
+                        0,
+                        9,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "dictum non consectetur a.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suscipit adipiscing",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "bibendum est ultricies",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "integer.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Receipt ID R-00112",
+            {
+                "entities": [
+                    [
+                        11,
+                        18,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "¥ Y",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "g‘i E} Date 02/12/2020",
+            {
+                "entities": [
+                    [
+                        12,
+                        22,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "N4",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Deposit Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Received From:",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Andrea Johnson",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3976 Hillside Street",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Scottsdale, Arizona, 85253",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Account Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "AC001-209104",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Deposit Information",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Type Description Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Cash Monthly Investment $250",
+            {
+                "entities": [
+                    [
+                        25,
+                        28,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Cheque Side Income $200",
+            {
+                "entities": [
+                    [
+                        20,
+                        23,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Others. Other Income $480",
+            {
+                "entities": [
+                    [
+                        22,
+                        25,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "$93",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Authorized Representative",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Stacy Donovan",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Signature",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "42",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            ". Happy Children Foundation",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "” 1101 United Road, Union City, San Jose, California, 901292",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donation Receipt",
+            {
+                "entities": [
+                    [
+                        0,
+                        16,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "January 17,1998",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Thank you for your gift!",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "The amount you have given will make a difference as the proceeds will go help put the children to",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "school to give them better education, and thus make them better members of society.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "This receipt is an attestation that we have gratefully received your generous contribution to our",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "humble institution. Keep this receipt for your tax deduction purposes.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donor's Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Floris Baysting",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donor's Address",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "5 Karstens Drive, 6661 Arrowood Avenue",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Waterbury, Connecticut, 06721",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donation Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Suspendisse potenti.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Donation received by",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Floris Baysting",
+            {
+                "entities": [
+                    [
+                        0,
+                        15,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date Received",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Saturday, January 17,1998",
+            {
+                "entities": [
+                    [
+                        10,
+                        25,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "e Service Receipt",
+            {
+                "entities": [
+                    [
+                        2,
+                        17,
+                        "TYPE_OF_BILL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "04/13/2020",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "AUTOTECH SERVICE CENTER - 8980 West Lake Pond Dr. Long Beach, CA 90813",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Bill To",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Michael Carlsmilth",
+            {
+                "entities": [
+                    [
+                        0,
+                        18,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "(958) 203-5829",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "michael@example.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        19,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "123 Rodeo Drive, 213 Mark Street",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Great City, Some State, 1111",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "United States",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Car Make CarModel ~ YearModel  Color Transmission Engine Type",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "BMW 3160 1999 Red  Automatic Gas",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Last Change Oil Mileage Reading Next Change Oil",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Apr 13,2020 99000 04/13/2021",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "ORDER_DATE"
+                    ],
+                    [
+                        12,
+                        17,
+                        "TOTAL_AMOUNT"
+                    ],
+                    [
+                        18,
+                        28,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Under Chassis Hood",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tie Rod Ends, ldler Arm Belts, Spark plugs, Oil, ATF",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Brakes Bearing and Shocks",
+            {
+                "entities": [
+                    [
+                        0,
+                        25,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Wheel Cylinder",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Materials Labor",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Particulars ‘Amount Particulars ‘Amount",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Oil Filter 20 Change Oil 50",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Synthetic Oil 200 belt replacement 100",
+            {
+                "entities": [
+                    [
+                        18,
+                        34,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Spark plugs 100",
+            {
+                "entities": [
+                    [
+                        0,
+                        11,
+                        "DESCRIPTION"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Labor Cost ~ $150",
+            {
+                "entities": [
+                    [
+                        20,
+                        23,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Material Cost $320",
+            {
+                "entities": [
+                    [
+                        21,
+                        24,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Cost $470",
+            {
+                "entities": [
+                    [
+                        12,
+                        15,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Date",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Customer Bill Pay",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Invoice Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "INV1232",
+            {
+                "entities": [
+                    [
+                        0,
+                        7,
+                        "INVOICE_NO./BILL_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "®  CLIENT INFORMATION",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "-",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Full Name",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Joyce Graham",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Address.",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "3320 Red Dog Road",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Monroe, North Carolina, 28112",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(704) 292-6519",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "E-mail",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "selena.blic4@yahoo.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Invoice Amount 45",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "®  PAYER INFORMATION",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "-",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payer Information",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Joyce Graham",
+            {
+                "entities": [
+                    [
+                        0,
+                        12,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "selena.blic4@yahoo.com",
+            {
+                "entities": [
+                    [
+                        0,
+                        22,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total Amount(Amount: 46.35 UsD)",
+            {
+                "entities": [
+                    [
+                        21,
+                        26,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Total $46.35",
+            {
+                "entities": [
+                    [
+                        7,
+                        12,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "26 lvero i, Syracus, 5, 67878",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 1234567 - info@abctaxi.com - www.abctaxi.com ABCTAXI",
+            {
+                "entities": [
+                    [
+                        0,
+                        13,
+                        "MOBILE_NO."
+                    ],
+                    [
+                        16,
+                        32,
+                        "EMAIL"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Driver's Name Receipt Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "John Doe Sl",
+            {
+                "entities": [
+                    [
+                        0,
+                        8,
+                        "NAME"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Driver's Phone Taxi Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "(123) 456-7890 23",
+            {
+                "entities": [
+                    [
+                        0,
+                        14,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Driver's ID",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "123ABC",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Passenger Details",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Name Email Phone Number",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Jane Smith janesmith@noemail.com (102) 345-6789",
+            {
+                "entities": [
+                    [
+                        0,
+                        10,
+                        "NAME"
+                    ],
+                    [
+                        11,
+                        32,
+                        "EMAIL"
+                    ],
+                    [
+                        33,
+                        47,
+                        "MOBILE_NO."
+                    ]
+                ]
+            }
+        ],
+        [
+            "Pick up Location Destination Appointment",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "532Rinehart Road 123 Oak Road Friday, Jul 17,2020 115",
+            {
+                "entities": [
+                    [
+                        38,
+                        49,
+                        "ORDER_DATE"
+                    ]
+                ]
+            }
+        ],
+        [
+            "Miami, FL, 33132 Miami, FL, 33132 AM - 130 AM",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Payment Method Fare ($) 30",
+            {
+                "entities": [
+                    [
+                        24,
+                        26,
+                        "TOTAL_AMOUNT"
+                    ]
+                ]
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Cash",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "Tip ($) s",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ],
+        [
+            "",
+            {
+                "entities": []
+            }
+        ]
+    ]
+}

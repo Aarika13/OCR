@@ -6,7 +6,11 @@ from flask import Flask ,jsonify
 import json
 import os
 
+from pymongo import MongoClient
+# for 500 internal error
+from logging import FileHandler,WARNING
 # importing file for data extraction
+from PyPDF2 import PdfReader 
 from pdf2image import convert_from_path
 import os
 import cv2
@@ -16,7 +20,6 @@ import shutil
 import pandas as pd
 
 # # #######################here,the text classification is to be done
-
 nlp = spacy.load("/home/sunil/Desktop/np/model-best")  # load the spacy model
 
 def process_image(image):
@@ -34,15 +37,21 @@ def process_file(file_path):
         for i, image in enumerate(images):
             image.save(f'special/page_{i+1}.jpg', 'JPEG')
             text += process_image(image)
+        # with open(file_path, 'rb') as f:
+        #     pdf_reader = PyPDF2.PdfReader(f)
+        #     for page_num in range(pdf_reader.numPages):
+        #         page = pdf_reader.getPage(page_num)
+        #         text += page.extractText()
     else:
         print("Input the correct file")
     return text
 
 def process_directory(input_dir, output_dir):
     rows = []
+    df = pd.DataFrame(columns=["TYPE_OF_BILL","DATE","MOBILE_NO","ADDRESS","DESCRIPTION","STATE","INVOICE/BILL_NO","EMAIL","TIME","AMOUNT","RATE","QUANTITY","NAME","COUNTRY"])
     for root, dirs, filenames in os.walk(input_dir):
         for filename in filenames:
-            print('#######' + filename + '#######')
+            # print('#######' + filename + '#######')
             input_path = os.path.join(input_dir, filename)
             text = process_file(input_path)
             print("Processed text:")
@@ -53,40 +62,52 @@ def process_directory(input_dir, output_dir):
                 print(ent.text, ent.label_)
                 mylist.append([ent.text,ent.label_])
             type_bill = ','.join(i[0] for i in mylist if i[1] == 'TYPE_OF_BILL')
-            name_of = ','.join(i[0] for i in mylist if i[1] == 'NAME')
-            invoice = ','.join(i[0] for i in mylist if i[1] == 'INVOICE_NO./BILL_NO.')
+            name = ','.join(i[0] for i in mylist if i[1] == 'NAME')
+            invoice = ','.join(i[0] for i in mylist if i[1] == 'INVOICE/BILL_NO')
             email = ','.join(i[0] for i in mylist if i[1] == 'EMAIL')
-            date = ','.join(i[0] for i in mylist if i[1] == 'ORDER_DATE')
+            date = ','.join(i[0] for i in mylist if i[1] == 'DATE')
             description = ','.join(i[0] for i in mylist if i[1] == 'DESCRIPTION')
-            amount = ','.join(i[0] for i in mylist if i[1] == 'TOTAL_AMOUNT')
-            tax = ','.join(i[0] for i in mylist if i[1] == 'TAX_RATE')
+            amount = ','.join(i[0] for i in mylist if i[1] == 'AMOUNT')
+            tax = ','.join(i[0] for i in mylist if i[1] == 'RATE')
             quantity = ','.join(i[0] for i in mylist if i[1] == 'QUANTITY')
-            mobile = ','.join(i[0] for i in mylist if i[1] == 'MOBILE_No.')
-            df = pd.DataFrame(columns=['TYPE_OF_BILL', 'NAME', 'INVOICE_NO./BILL_NO.', 'EMAIL', 'ORDER_DATE', 'DESCRIPTION', 'TOTAL_AMOUNT', 'TAX_RATE', 'QUANTITY', 'MOBILE_NO.'])
-            df = df.append({'TYPE_OF_BILL':type_bill,'NAME':name_of,'INVOICE_NO./BILL_NO.':invoice,'EMAIL':email,'ORDER_DATE':date,'DESCRIPTION':description,'TOTAL_AMOUNT':amount,'TAX_RATE':tax,'QUANTITY':quantity,'MOBILE_NO.':mobile}, ignore_index=True)
+            mobile = ','.join(i[0] for i in mylist if i[1] == 'MOBILE_No')
+            state = ','.join(i[0] for i in mylist if i[1] == 'STATE')
+            address = ','.join(i[0] for i in mylist if i[1] == 'ADDRESS')
+            time = ','.join(i[0] for i in mylist if i[1] == 'TIME')
+            country = ','.join(i[0] for i in mylist if i[1] == 'COUNTRY')
+            df = df.append({'TYPE_OF_BILL':type_bill,'NAME':name,'INVOICE/BILL_NO':invoice,'EMAIL':email,'DATE':date,'DESCRIPTION':description,'AMOUNT':amount,'RATE':tax,'QUANTITY':quantity,'MOBILE_NO':mobile,'STATE': state,'ADDRESS':address,'Time': time,'COUNTRY':country}, ignore_index=True)
             print(df)
-            output_path = "output.html"
+            # df.to_csv('raw_data.csv', index=False)
             
-            result = df.to_html()
-            # print(result)
-            # html = df.to_html()
-            # text_file = open("output.html", "w")
-            # text_file.write(html)
-            # text_file.close()
-            # text_file = open("output.html", "w")
-#             text_file.write(html)
-#             text_file.close()
+            output_path = "output.html"
+            with open(output_path, 'w') as f:
+                f.write(f'<html><body><img src="{filename}"><br><pre>{text}</pre></body></html>')
+            
             shutil.move(input_path, output_path)
             print(f"Moved file to {output_path}")
-            
-process_directory(r"/home/sunil/Desktop/np/uploads/", r"/home/sunil/Desktop/np/special/")
+    return df
+df = process_directory(r"/home/sunil/Desktop/np/uploads/", r"/home/sunil/Desktop/np/special/")
+my_data=df.to_html('/home/sunil/Desktop/np/templates/output.html')         
 # ######here, it finshes
     
 
 UPLOAD_FOLDER = '/home/sunil/Desktop/np/uploads'
 ALLOWED_EXTENSIONS = { 'png', 'jpg', 'jpeg','.pdf'}
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates")
+#  for mongodb
+# client = Mongo
+# Client('localhost', 27017)
+
+# db = client.flask_db
+# todos = db.todos
+
+file_handler = FileHandler('errorlog.txt')
+file_handler.setLevel(WARNING)
+# df = pd.DataFrame()
+# df = pd.read_csv('raw_data.csv')
+# df.to_csv('raw_data.csv', index=None)
+
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
@@ -120,8 +141,6 @@ def upload_file():
             return redirect(url_for('output_data',name = filename))
             # output_data = "/home/sunil/Desktop/np/templates/output.html"
             # return redirect(url_for(output_data,name=filename))
-
-  
     return render_template("success.html")
 
 
@@ -145,20 +164,25 @@ def download_file(name):
 
 @app.route('/<name>/output',methods = ["POST","GET"])
 def output_data(name):
-    if request.method == 'POST':
-        # assume the form data has been submitted and stored in a DataFrame called `df`
+    # data = process_directory(df)
+    # data = pd.read_csv('raw_data.csv')
+    # return render_template('output.html',table = my_data, titles=[''])
+    return render_template('output.html',result=my_data)
+    # return render_template('output.html',table = my_data,column_names=df.columns.values, row_data=list(df.values.tolist()),  titles=[''])
+    #     # assume the form data has been submitted and stored in a DataFrame called `df`
 
-        # extract the relevant data from the DataFrame and pass it to the output HTML file
-        data = df.to_dict(orient='records')
-        return render_template("output.html", data=data)
-    else:
-        return render_template("index.html")
+    #     # extract the relevant data from the DataFrame and pass it to the output HTML file
+    #     data = df.to_dict(orient='records')
+    #     return render_template("output.html", data=data)
+    # else:
+    #     return render_template("index.html")
 #, tables=[df_ds.to_html(classes='data', header="true")]     return redirect("output.html")
 app.add_url_rule(
-    "/<name>/output", endpoint="upload.html", build_only=True
+    "/<name>/output", endpoint="output.html", build_only=True
 )
 
 
 if __name__ == '__main__':
     # app.run(debug=True)
+    
     app.run(host='0.0.0.0' , port=5000,debug = True)
