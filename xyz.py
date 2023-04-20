@@ -8,7 +8,7 @@ from pdf2image import convert_from_path
 import io      
 import matplotlib.pyplot as plt
 
-text = "aar"
+text = ""
 indir = "/home/sunil/Desktop/np/special/"
 for root, dirs, filenames in os.walk(indir):
     for filename in filenames:

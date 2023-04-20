@@ -2,8 +2,12 @@
     "liveServer.settings.port": 5501,
     "cSpell.words": [
         "enctype",
+        "imread",
         "jsonify",
+        "OTSU",
+        "pymongo",
         "PYPDF",
+        "pytesseract",
         "spacy",
         "streamlit",
         "sunil",
