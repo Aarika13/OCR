@@ -8,6 +8,9 @@ from flask import Flask, jsonify
 # import json
 from pdfreader import PDFDocument, SimplePDFViewer
 # import pymongo
+from pdf2image import convert_from_path
+from io import StringIO
+from pdfminer.high_level import extract_text_to_fp
 from pymongo import MongoClient
 # for 500 internal error
 from logging import FileHandler, WARNING
@@ -29,19 +32,37 @@ def process_image(image):
     thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
     return pytesseract.image_to_string(thresh, lang='eng')
 
+def process_pdf(file_path):
+    text = ""
+    with open(file_path, 'rb') as f:
+        try:
+            images = convert_from_path(file_path)
+            for i, image in enumerate(images):
+                image.save(f'uploads/page_{i + 1}.jpg', 'JPEG')
+                text += process_image(image)
+        except:
+            output_string = StringIO()
+            with open(file_path, 'rb') as in_file:
+                extract_text_to_fp(in_file, output_string)
+            text = output_string.getvalue()
+    return text
 def process_file(file_path):
     text = ""
     if file_path.endswith(".jpg") or file_path.endswith(".jpeg") or file_path.endswith(".png"):
         im = cv2.imread(file_path)
         text = process_image(im)
     elif file_path.endswith(".pdf"):
-        with open(file_path,'rb') as f:
-            viewer = SimplePDFViewer(f)
-            viewer.render()
-            text = "".join(viewer.canvas.strings)
+        text = process_pdf(file_path)
     else:
-        print("Input the correct file")
+        print("Unsupported file type")
     return text
+# with open(file_path, 'rb') as f:
+#     viewer = SimplePDFViewer(f)
+#     viewer.render()#     text = "".join(viewer.canvas.strings)
+
+    # else:
+    #     print("Input the correct file")
+    # return text
 
 
 def process_directory(input_dir, output_dir):
@@ -56,6 +77,7 @@ def process_directory(input_dir, output_dir):
         for filename in filenames:
             input_path = os.path.join(input_dir, filename)
             text = process_file(input_path)
+            print(text)
             print("Processed text:")
             doc = nlp(text)
             mylist = []
@@ -87,9 +109,7 @@ def process_directory(input_dir, output_dir):
                 df = df.append({'NAME': name, 'INVOICE/BILL_NO': invoice, 'EMAIL': email, 'DATE': date, 'DESCRIPTION': description,
                      'AMOUNT': amount, 'RATE': tax, 'QUANTITY': quantity, 'MOBILE_NO': mobile}, ignore_index=True)
                 print(df)
-                # based onabove is class
             elif user == 'tally':
-                # execute some other code
                 df = pd.DataFrame(
                     columns=['NAME', 'INVOICE/BILL_NO', 'EMAIL', 'DATE', 'DESCRIPTION', 'AMOUNT', 'RATE', 'QUANTITY',
                              'MOBILE_NO','STATE','ADDRESS'])
