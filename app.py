@@ -4,8 +4,8 @@ from flask import render_template
 from flask import send_from_directory
 from flask import request, redirect, url_for, flash
 from werkzeug.utils import secure_filename
-from flask import Flask, jsonify
-# import json
+from flask import Flask
+import json
 from pdfreader import PDFDocument, SimplePDFViewer
 # import pymongo
 from pdf2image import convert_from_path
@@ -66,12 +66,10 @@ def process_file(file_path):
 
 
 def process_directory(input_dir, output_dir):
-    # user = request.form.get('comp_select')
-    # user = upload_file()
-    # user = request.args.get("user")
+
     print(user)
     data = []
-    df = pd.DataFrame(columns=["TYPE_OF_BILL", "DATE", "MOBILE_NO", "ADDRESS", "DESCRIPTION", "STATE", "INVOICE/BILL_NO", "EMAIL", "TIME", "AMOUNT", "RATE", "QUANTITY", "NAME", "COUNTRY"])
+    df = pd.DataFrame(columns=["TYPE_OF_BILL", "DATE", "MOBILE_NO", "ADDRESS", "DESCRIPTION", "STATE", "INVOICE/BILL_NO", "EMAIL", "TIME", "AMOUNT","TAX_TYPE", "RATE", "QUANTITY", "NAME", "COUNTRY"])
     print(type(df))
     for root, dirs, filenames in os.walk(input_dir):
         for filename in filenames:
@@ -80,6 +78,41 @@ def process_directory(input_dir, output_dir):
             print(text)
             print("Processed text:")
             doc = nlp(text)
+            max_amt = 0
+            i = 1
+            data = {}
+            items_list = []
+            # Iterating over every entitiy to create a dictionary
+            # for ent in doc.ents:
+            #     # Saving only one instance of Total Bill Amount
+            #     if (ent.label_ == "AMOUNT"):
+            #         try:
+            #             amt = float(ent.text)
+            #             if amt > max_amt:
+            #                 data["AMOUNT"] = amt
+            #         except Exception as e:
+            #             pass
+            #     # Creating a list of Items
+            #     elif (ent.label_ == "Items"):
+            #         try:
+            #             items_list.append(ent.text)
+            #         except Exception as e:
+            #             print(e)
+            #     # Checking if the detected key is already present in the key,
+            #     # If yes then we create a new key to store that value instead of overwriting the previous one
+            #     else:
+            #         if ent.label_ in data.keys():
+            #             data[ent.label_ + "-" + str(i)] = ent.text
+            #             i += 1
+            #         else:
+            #             data[ent.label_] = ent.text
+            #         # Staring the list of items using the Items key in the dictionary
+            #     data["Items"] = items_list
+            #     # Sorting all the elements of the dictionary
+            #     data = dict(sorted(data.items()))
+            #     # Printing final result
+            #     print(json.dumps(data, indent=1))
+                # print(type(data))
             mylist = []
             for ent in doc.ents:
                 print(ent.text, ent.label_)
@@ -98,6 +131,7 @@ def process_directory(input_dir, output_dir):
             address = ','.join(i[0] for i in mylist if i[1] == 'ADDRESS')
             time = ','.join(i[0] for i in mylist if i[1] == 'TIME')
             country = ','.join(i[0] for i in mylist if i[1] == 'COUNTRY')
+            tax_type = ','.join(i[0] for i in mylist if i[1] == 'TAX_TYPE')
             # df = df.append({'TYPE_OF_BILL': type_bill, 'NAME': name, 'INVOICE/BILL_NO': invoice, 'EMAIL': email, 'DATE':date, 'DESCRIPTION': description, 'AMOUNT': amount, 'RATE': tax, 'QUANTITY': quantity, 'MOBILE_NO': mobile,'STATE': state, 'ADDRESS': address, 'TIME': time, 'COUNTRY': country}, ignore_index=True)
             # data.append({'TYPE_OF_BILL':type_bill,'NAME':name,'INVOICE/BILL_NO':invoice,'EMAIL':email,'DATE':date,'DESCRIPTION':description,'AMOUNT':amount,'RATE':tax,'QUANTITY':quantity,'MOBILE_NO':mobile,'STATE': state,'ADDRESS':address,'TIME': time,'COUNTRY':country}, ignore_index=True)
             if user == 'zoho':
@@ -131,9 +165,21 @@ def process_directory(input_dir, output_dir):
                 print("QUICK-BOOK")
             else:
                 df = df.append(
-                    {'TYPE_OF_BILL': type_bill, 'NAME': name, 'INVOICE/BILL_NO': invoice, 'EMAIL': email, 'DATE': date,
-                     'DESCRIPTION': description, 'AMOUNT': amount, 'RATE': tax, 'QUANTITY': quantity,
-                     'MOBILE_NO': mobile, 'STATE': state, 'ADDRESS': address, 'TIME': time, 'COUNTRY': country},
+                    {'TYPE_OF_BILL': type_bill,
+                     'NAME': name,
+                     'INVOICE/BILL_NO': invoice,
+                     'EMAIL': email,
+                     'DATE': date,
+                     'DESCRIPTION': description,
+                     'AMOUNT': amount,
+                     'RATE': tax,
+                     'QUANTITY': quantity,
+                     'MOBILE_NO': mobile,
+                     'STATE': state,
+                     'ADDRESS': address,
+                     'TIME': time,
+                     'COUNTRY': country,
+                     'TAX_TYPE': tax_type},
                     ignore_index=True)
                 print(df)
                 print("All options")
